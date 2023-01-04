@@ -10,7 +10,7 @@ echo " Welcome to the stage of where are ready to get connected <br>";
 // Connecting to the DataBase
 $servername = "localhost";
 $username = "root";
-$password = "dfg";
+$password = "";
 
 // Create a connection 
 $conn = mysqli_connect($servername , $username, $password);
@@ -19,7 +19,7 @@ $conn = mysqli_connect($servername , $username, $password);
 if (!$conn){
     die("Sorry we failed to connect: ". mysqli_connect_error());
 }else{
-    echo "Connection was succesfull";
+    echo "Connection was succesful";
 }
 
 ?>
